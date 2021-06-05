@@ -48,6 +48,7 @@ class SignIn extends Component {
               label='email'
               required
             />
+
             <FormInput
               name='password'
               type='password'
@@ -56,6 +57,7 @@ class SignIn extends Component {
               label='password'
               required
             />
+            
             <div className='buttons'>
               <CustomButton type='submit'> Sign in </CustomButton>
               <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
